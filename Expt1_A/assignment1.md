@@ -19,7 +19,7 @@ V_G as 0.6V
 
 The components we require are
 
-<img src="./media/image1.png"
+<img src="./media/1.png"
 style="width:5.42708in;height:2.69792in" />
 
 1.  N-channel Enhancement MOSFET (CMOSN)
@@ -58,7 +58,7 @@ style="width:5.42708in;height:2.69792in" />
 6.  After this, we can perform various analyses - DC, AC, transient, DC
     operating point, etc.
 
-> <img src="./media/image2.png" style="width:3.875in;height:3.22917in" />
+> <img src="./media/2.png" style="width:3.875in;height:3.22917in" />
 
 **<u>DC Operating Point</u>**
 
@@ -104,7 +104,7 @@ resistances in your schematic
 
 **<u>Results</u>**
 
-<img src="./media/image3.png"
+<img src="./media/3.png"
 style="width:3.79167in;height:2.30208in" />
 
 From this, we can see V<sub>D</sub> = **1.77223V,** I<sub>D</sub> **=
@@ -146,7 +146,7 @@ time-dependent signal, an AC excitation is required.
 
 **<u>Results</u>**
 
-<img src="./media/image4.png" style="width:5.27986in;height:4.1125in" />
+<img src="./media/4.png" style="width:5.27986in;height:4.1125in" />
 
 From the waveform, we can see that the peak voltage of the output signal
 is around 1.777 V. We can also see that the waveform is inverted
@@ -186,7 +186,7 @@ calculate small signal gain.
 
 **<u>Results</u>**
 
-<img src="./media/image5.png" style="width:6.26806in;height:1.1699in" />
+<img src="./media/5.png" style="width:6.26806in;height:1.1699in" />
 
 From the plot, we can see that the midband gain is around -22 dB, for an
 input ac sine signal, of amplitude 50 mV. The gain is negative due to a
@@ -241,7 +241,7 @@ can assume to be the f<sub>H</sub> value.
 
 **<u>Results</u>**
 
-<img src="./media/image6.png"
+<img src="./media/6.png"
 style="width:6.26806in;height:1.34602in" />
 
 We can see the transfer characteristics of the MOSFET, i.e., the plot of
@@ -265,7 +265,7 @@ and then click on the “Run” icon.
 
 **<u>Results</u>**
 
-<img src="./media/image7.png"
+<img src="./media/7.png"
 style="width:6.26806in;height:1.25361in" />
 
 From this plot, we can see that the MOSFET is in triode from 0 V until
@@ -274,7 +274,7 @@ goes into saturation, and the drain current I<sub>D</sub>, becomes a
 constant. The I<sub>D</sub> value (in saturation) is around 27 µA, which
 matches approximately with our calculated value of 27.778 µA.
 
-<img src="./media/image8.png"
+<img src="./media/8.png"
 style="width:6.26806in;height:1.94069in" />
 
 This plot shows us the drain characteristics at different values of
@@ -288,7 +288,7 @@ click “Ok”, and then click on “Run”. This will return the plot.
 
 **<u>Voltage Transfer Characteristic</u>**
 
-<img src="./media/image9.png"
+<img src="./media/9.png"
 style="width:3.16601in;height:2.77369in" />
 
 **<u>Variation of Parameters</u>**
@@ -308,7 +308,7 @@ style="width:3.16601in;height:2.77369in" />
 > Then, using the SPICE directive, type **“.step param R 10 1k 50”**,
 > which tells LTSpice to vary R from 10Ω to 1kΩ, in steps of 50Ω.
 
-<img src="./media/image10.png" style="width:5.11458in;height:2.625in" />
+<img src="./media/10.png" style="width:5.11458in;height:2.625in" />
 
 2.  **Variation of I<sub>D</sub> with varying values of W (0.5µm –
     1.5µm, with increments of 0.5µm)-**
@@ -326,7 +326,7 @@ style="width:3.16601in;height:2.77369in" />
 > 0.5u”**, which tells LTSpice to vary W from 0.5 µm to 1.5 µm in steps
 > of 0.5 µm.
 >
-> <img src="./media/image11.png"
+> <img src="./media/11.png"
 > style="width:6.26806in;height:1.99694in" />
 
 3.  **Variation of I<sub>D</sub> with varying values of L (50 nm – 200
@@ -345,7 +345,7 @@ style="width:3.16601in;height:2.77369in" />
 > 25n”**, which tells LTSpice to vary L from 50 nm to 200 nm, in steps
 > of 25 nm.
 >
-> <img src="./media/image12.png"
+> <img src="./media/12.png"
 > style="width:6.26806in;height:1.34536in" />
 
 **<u>Final Results</u>**
