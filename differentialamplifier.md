@@ -69,7 +69,7 @@ Replacing the current source with a MOSFET (M3) allows us to set the desired dra
 ## Transient Analysis 
 ![image](https://github.com/user-attachments/assets/fb503fdf-ad0a-467c-805d-874a33fb0d51)
 
-##b Inference 
+## Inference 
 A differential amplifier with a constant current source or MOSFET-based current source provides better stability, gain control, and linearity compared to a resistor-based biasing method. Using MOSFETs in the saturation region ensures consistent performance, making it a preferred design choice for high-precision applications.
 
 
